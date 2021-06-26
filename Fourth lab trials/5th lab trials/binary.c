@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int num,binary=0,rem=0,i=1;
     printf("\t Enter a decimal number : \t");
