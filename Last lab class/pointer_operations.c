@@ -34,6 +34,9 @@ int main()
         case '/':
             printf("%d", *i / *j);
             break;
+            
+        case '%':
+            printf("%d", *i % *j);
 
     }
     return 0;
