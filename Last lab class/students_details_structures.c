@@ -41,6 +41,19 @@ int main()
 
     printf("Name: %s \n USN: %s \n Age: %d \n Marks: %d", students[m-1].name, students[m-1].USN, students[m-1].age, students[m-1].marks);
 
+printf("genre: %s \n name of the author: %s \n price: %d \n No. of pages: %d \n Date of publication: %s", book[m-1].genre, book[m-1].author, &book[m-1].price, &book[m-1].no_pages, book[m-1].date_publication);
+
+    int large = -11111, p;
+
+    for(i=0; i<n; i++)
+    {
+        if(students[i].marks > large)
+        {
+            large = students[i].marks;
+            p = i;
+        }
+    }
+        printf("\nStudent %d has more marks", p+1);
 
 }
 
